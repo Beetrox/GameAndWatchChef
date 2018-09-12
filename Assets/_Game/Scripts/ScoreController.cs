@@ -6,7 +6,6 @@ using TMPro;
 public class ScoreController : MonoBehaviour {
 
     TextMeshPro textMesh;
-    //int points = 0;
 
     private void Start()
     {

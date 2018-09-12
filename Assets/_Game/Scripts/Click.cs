@@ -14,12 +14,10 @@ public class Click : MonoBehaviour
     {
         if (OnLeftPressed != null && Left)
         {
-            //Debug.Log("left");
             OnLeftPressed();
         }
         else if (OnRightPressed != null)
         {
-            //Debug.Log("right");
             OnRightPressed();
         }
     }

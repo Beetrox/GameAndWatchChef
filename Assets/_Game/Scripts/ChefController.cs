@@ -7,11 +7,6 @@ public class ChefController : MonoBehaviour {
     public List<Transform> ChefPositions = new List<Transform>();
 
     int CurrentChefPosition = 1;
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
 
     private void OnEnable()
     {
